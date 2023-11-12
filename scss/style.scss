@@ -1,9 +1,9 @@
 /******* Bootstrap Theming ********/
 
-$primary: #E47A2E;
-$secondary: #EDF5F7;
+$primary: #b39684;
+$secondary: #ebe2d2;
 $light: #FFFFFF;
-$dark: #121F38;
+$dark: #3c4d65;
 
 $font-family-sans-serif: 'Montserrat', sans-serif;
 
@@ -28,7 +28,7 @@ $border-width: 2px;
 
 /********** Template CSS ************/
 .font-secondary {
-    font-family: 'Great Vibes', cursive;
+    font-family: 'Gilroy-Medium', sans-serif;
 }
 
 .btn-square {
@@ -276,7 +276,6 @@ $border-width: 2px;
     }
     
     .timeline .row::after {
-        content: "\f004";
         font-family: "Font Awesome 5 Free";
         font-weight: 400;
         position: absolute;
@@ -320,16 +319,15 @@ $border-width: 2px;
 }
 
 .bg-gallery {
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/gallery.jpg), no-repeat center center;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)) , no-repeat center center;
     background-size: cover;
 }
 
 .gallery-carousel .owl-nav {
     position: absolute;
-    width: 135px;
-    height: 60px;
-    top: -90px;
-    left: calc(50% - 67px);
+    width: 85px;
+    height: 56px;
+    left: calc(50% - 41px);
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -338,8 +336,8 @@ $border-width: 2px;
 
 .gallery-carousel .owl-nav .owl-prev,
 .gallery-carousel .owl-nav .owl-next {
-    width: 60px;
-    height: 60px;
+    width: 30px;
+    height: 30px;
     display: flex;
     align-items: center;
     justify-content: center;
