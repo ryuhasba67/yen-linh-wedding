@@ -32,9 +32,14 @@
   --breakpoint-md: 768px;
   --breakpoint-lg: 992px;
   --breakpoint-xl: 1200px;
-  --font-family-sans-serif: "Montserrat", sans-serif;
+  --font-family-sans-serif: 'Courier New';
   --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 }
+
+/*@font-face {*/
+/*  font-family: 'Courier New';*/
+/*  src: url(/font/Courier_New.ttf);*/
+/*}*/
 
 *,
 *::before,
@@ -43,7 +48,7 @@
 }
 
 html {
-  font-family: 'Roboto', cursive;
+  font-family: 'Courier New';
   line-height: 1.15;
   -webkit-text-size-adjust: 100%;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
@@ -55,7 +60,7 @@ article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
 
 body {
   margin: 0;
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Courier New';
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
@@ -4019,8 +4024,8 @@ input[type="button"].btn-block {
 
 .navbar-brand {
   display: inline-block;
-  padding-top: 0.3125rem;
-  padding-bottom: 0.3125rem;
+  padding-top: 0;
+  padding-bottom: 0.5rem;
   margin-right: 1rem;
   font-size: 1.25rem;
   line-height: inherit;
@@ -5568,7 +5573,7 @@ a.close.disabled {
   z-index: 1070;
   display: block;
   margin: 0;
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Courier New';
   font-style: normal;
   font-weight: 400;
   line-height: 1.5;
@@ -5680,7 +5685,7 @@ a.close.disabled {
   z-index: 1060;
   display: block;
   max-width: 276px;
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Courier New';
   font-style: normal;
   font-weight: 400;
   line-height: 1.5;
@@ -9453,7 +9458,7 @@ a.text-dark:hover, a.text-dark:focus {
 
 /********** Template CSS ************/
 .font-secondary {
-  font-family: 'Gilroy-Medium', sans-serif;
+  font-family: 'Courier New';
 }
 
 .btn-square {
@@ -9803,6 +9808,23 @@ a.text-dark:hover, a.text-dark:focus {
   vertical-align: middle;
   height: 100px;
   width: 100px;
+}
+@media (max-width: 767.98px) {
+  .simply-countdown > .simply-section  {
+    /* countdown block inner div */
+    height: 60px;
+    width: 60px;
+  }
+  .simply-countdown > .simply-section > div {
+    height: 20px;
+    width: 60px;
+  }
+  .simply-countdown > .simply-section .simply-amount {
+    font-size: 24px !important;
+  }
+  .simply-countdown > .simply-section .simply-word {
+    font-size: 10px;
+  }
 }
 
 .simply-countdown > .simply-section .simply-amount,
